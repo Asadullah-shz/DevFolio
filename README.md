@@ -1,13 +1,6 @@
-# Portfolio Website
 <div align="center">
-  <pre>
-    _____           _    __      _ _       
-   |  __ \         | |  / _|    | (_)      
-   | |__) |__  _ __| |_| |_ ___ | |_  ___  
-   |  ___/ _ \| '__| __|  _/ _ \| | |/ _ \ 
-   | |  | (_) | |  | |_| || (_) | | | (_) |
-   |_|   \___/|_|   \__|_| \___/|_|_|\___/ 
-  </pre>
+  
+  # Portfolio Website 
 </div>
 
  
@@ -18,13 +11,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 ## Demo
 
 ![Portfolio Demo](https://i.postimg.cc/m2W3cm6D/Screenshot-28-7-2025-17229-localhost.jpg)
-
----
-
-## Live Preview
-
-Check out the live preview of the portfolio website here:  
-
+ 
 ---
 ### 🎯 Project Structure
 ```bash
@@ -151,7 +138,7 @@ You will need to download **Git** and **Node** to run this project.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
   ```bash
-  git clone https://github.com/seraprogrammer/portfolio.git
+  git clone https://github.com/Asadullah-shz/Devfolio.git
   ```
 Navigate to the Project Directory 📂
 Once the repository is cloned, change your directory to the project folder:
