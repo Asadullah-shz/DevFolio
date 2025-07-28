@@ -1,5 +1,5 @@
 import HeroImg from "@/assets/images/hero.jpg";
-import OlovaLogo from "@/assets/images/olova.png";
+import OlovaLogo from "@/assets/images/olova1.png";
 
 export default function About() {
   return (
@@ -24,11 +24,11 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
+                Hello! I'm Asad, a passionate JavaScript developer
                 specializing in creating innovative web solutions and
                 user-friendly interfaces.{" "}
                 <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
+                  As the creator of the Custom Solutions
                 </span>
                 , I'm dedicated to simplifying development workflows.
               </p>
@@ -44,14 +44,12 @@ export default function About() {
                   <p className="text-white">
                     I'm a lifelong learner and innovator, driven by a desire to
                     contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    tools that deliver real value. I'm pushing the boundaries of JavaScript frameworks to empower developers worldwide.
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
+                      Asadullah Shahbaz, Creator of
                     </cite>
                     <div className="flex items-center gap-2">
                       <img
@@ -61,7 +59,7 @@ export default function About() {
                         height="20"
                         width="auto"
                       />
-                      <span className="text-white">OlovaJS</span>
+                      <span className="text-white">Csm Solution</span>
                     </div>
                   </div>
                 </blockquote>

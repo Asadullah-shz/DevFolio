@@ -5,44 +5,34 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Pixel Hub",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "A Modern Ecommerce Website built with React and Tailwind CSS. Featuring a sleek design, responsive layout, and seamless user experience.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "https://i.postimg.cc/Ss3KXtSx/Screenshot-28-7-2025-17271-localhost.jpg",
     color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
+    githubLink: "https://github.com/Asadullah-shz/Pixel-Hub",
+    liveLink: "https://pixel-hub-demo.netlify.app",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "A sleek portfolio built with React and Tailwind CSS",
     description:
       "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "https://i.postimg.cc/m2W3cm6D/Screenshot-28-7-2025-17229-localhost.jpg",
     color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/Asadullah-shz/Devfolio",
+    liveLink: "",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "🚀 PortFolio",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
+      " A modern portfolio website built with Html and Tailwind CSS,Javascript, showcasing projects, skills, and experience in a sleek design.",
     src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
+    link: "https://i.postimg.cc/LXhDThz8/Screenshot-28-7-2025-172059-asadsdevs-netlify-app.jpg",
     color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/Asadullah-shz/Portfoliomain",
+    liveLink: "https://asadsdevs.netlify.app/",
   },
 ];
 
@@ -71,7 +61,6 @@ export default function Projects() {
     `;
     document.head.appendChild(style);
 
-    // Resolution check function
     const checkResolution = () => {
       const isTargetResolution =
         window.innerWidth >= 1360 &&
@@ -158,7 +147,7 @@ function Card({
           transition: { duration: 0.3 },
         }}
       >
-        {/* Modern split card design */}
+        {}
         <div className="w-full flex flex-col md:flex-row bg-zinc-900 rounded-2xl overflow-hidden shadow-xl">
           {/* Image section - full width on mobile, 55% on desktop */}
           <div className="w-full md:w-[55%] h-[250px] md:h-[400px] lg:h-[450px] relative overflow-hidden">
@@ -171,7 +160,7 @@ function Card({
               transition={{ duration: 0.4 }}
             />
 
-            {/* Colored overlay on hover */}
+            {}
             <motion.div
               className="absolute inset-0"
               style={{ backgroundColor: color, mixBlendMode: "overlay" }}
@@ -180,13 +169,13 @@ function Card({
               transition={{ duration: 0.3 }}
             />
 
-            {/* Project number */}
+            {}
             <div className="absolute top-4 left-4 md:top-6 md:left-6 bg-black/50 backdrop-blur-md text-white px-3 py-1 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-medium">
               Project {i + 1}
             </div>
           </div>
 
-          {/* Content section - full width on mobile, 45% on desktop */}
+          {}
           <div className="w-full md:w-[45%] p-6 md:p-8 lg:p-10 flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-3 mb-4 md:mb-6">
@@ -209,7 +198,7 @@ function Card({
               <div className="w-full h-[1px] bg-gray-800 mb-4 md:mb-6" />
 
               <div className="flex items-center gap-4">
-                {/* GitHub Link */}
+                {}
                 <motion.a
                   href={githubLink}
                   target="_blank"
@@ -239,7 +228,7 @@ function Card({
                   </span>
                 </motion.a>
 
-                {/* Live Link */}
+                {}
                 <motion.a
                   href={liveLink}
                   target="_blank"

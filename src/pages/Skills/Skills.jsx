@@ -26,6 +26,8 @@ import {
   SiFirebase,
   SiVercel,
   SiVite,
+  SiMysql,
+  SiNetlify,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
@@ -72,10 +74,7 @@ const SkillsSection = () => {
       color: "text-blue-400",
       skills: [
         { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
-        {
-          name: "Next.js",
-          icon: <SiNextdotjs className="w-4 h-4 text-white" />,
-        },
+      
         {
           name: "TypeScript",
           icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
@@ -103,13 +102,10 @@ const SkillsSection = () => {
           name: "Node.js",
           icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
         },
+       
         {
-          name: "Python",
-          icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
-        },
-        {
-          name: "PostgreSQL",
-          icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
+          name: "Mysql",
+          icon: <SiMysql className="w-4 h-4 text-[#336791]" />,
         },
         {
           name: "MongoDB",
@@ -119,10 +115,7 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
+       
       ],
     },
     {
@@ -145,25 +138,7 @@ const SkillsSection = () => {
         },
       ],
     },
-    {
-      icon: Cloud,
-      title: "Cloud & DevOps",
-      color: "text-orange-400",
-      skills: [
-        { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
-        {
-          name: "Docker",
-          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
-        },
-        { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        {
-          name: "Kubernetes",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
-        },
-        { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
-        { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
-      ],
-    },
+
     {
       icon: Cpu,
       title: "Tools & Technologies",
@@ -173,12 +148,7 @@ const SkillsSection = () => {
           name: "VS Code",
           icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
         },
-        { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
-        {
-          name: "Webpack",
-          icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
-        },
-        { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
+        { name: "Netlify", icon: <SiNetlify className="w-4 h-4 text-[#00C7B7]" /> }, 
         {
           name: "Firebase",
           icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
@@ -197,16 +167,12 @@ const SkillsSection = () => {
           icon: <MdAnimation className="w-4 h-4 text-[#FF4081]" />,
         },
         {
-          name: "SVG Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
+          name: "Graphic Design",
+          icon: <FcWorkflow className="w-4 h-4 text-[#3B82F6]" />,
         },
         {
-          name: "3D Modeling",
-          icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
-        },
-        {
-          name: "Motion Graphics",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
+          name: "Branding",
+          icon: <FcWorkflow className="w-4 h-4 text-[#FBBF24]" />,
         },
       ],
     },
